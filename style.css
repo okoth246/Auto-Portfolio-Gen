@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background:hsl(221, 96%, 9%); margin:0; padding:20px; }
+.container { max-width:800px; margin:20px auto; background:#0ff16d; padding:20px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+input, textarea { width:100%; padding:10px; margin:8px 0 14px; border-radius:6px; border:1px solid #1c5a04; box-sizing:border-box; }
+button { padding:10px 14px; background:#007BFF; color:#fff; border:none; border-radius:6px; cursor:pointer; }
+#preview { padding:18px; background:#f7fbff; border-radius:8px; min-height:120px; margin-top:10px; border:1px solid #e1eefc; }
+.skills span { display:inline-block; margin-right:6px; margin-bottom:6px; padding:6px 8px; border-radius:6px; background:#007BFF; color:#fff; font-size:13px; }

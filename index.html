@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Automatic Portfolio Generator</h1>
+
+    <div class="form-section">
+      <label>Name</label>
+      <input id="name" type="text" placeholder="Your Name">
+
+      <label>Role</label>
+      <input id="role" type="text" placeholder="Frontend Developer">
+
+      <label>About</label>
+      <textarea id="about" placeholder="Short about you"></textarea>
+
+      <label>GitHub URL</label>
+      <input id="github" type="text" placeholder="https://github.com/username">
+
+      <label>LinkedIn URL</label>
+      <input id="linkedin" type="text" placeholder="https://linkedin.com/...">
+
+      <label>Skills (comma separated)</label>
+      <input id="skills" type="text" placeholder="HTML, CSS, JavaScript">
+
+      <!-- Important: type="button" prevents accidental form submit -->
+      <button id="generateBtn" type="button">Generate Portfolio</button>
+
+    </div>
+
+    <hr>
+
+    <h2>Preview</h2>
+    <div id="preview"></div>
+
+    <button id="downloadBtn" type="button" style="display:none; margin-top:12px;">Download Portfolio HTML</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+<script src="app.js"></script>
+</html>
